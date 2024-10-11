@@ -13,6 +13,14 @@ h1 {
 p {
   font-weight: bold;
   font-size: 24px;
+  text-align: left;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 40px;
+  text-align: left;
 }
 
 main {
@@ -38,6 +46,7 @@ main {
     background-position: 0 50%;
   }
 }
+
 
 .container {
   margin: 2% auto 2% auto;
