@@ -14,6 +14,7 @@ p {
   font-weight: bold;
   font-size: 24px;
   text-align: left;
+  line-height: 32px;
 }
 
 ul {
@@ -21,14 +22,15 @@ ul {
   font-size: 24px;
   padding-left: 40px;
   text-align: left;
+  line-height: 32px;
 }
 
 main {
   display: flex;
   flex-direction: row;
 
-  height: 100vh;
-  width: 100%;
+  /* height: 100vh;
+  width: 100%; */
   background: linear-gradient(45deg, #d2001a, #7462ff, #23d5ab, #f1e366);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
@@ -47,7 +49,6 @@ main {
   }
 }
 
-
 .container {
   margin: 2% auto 2% auto;
   width: 75%;
@@ -60,7 +61,7 @@ main {
 }
 
 img {
-  width: 20%;
+  width: 15%;
   border-radius: 10px;
   margin: 20px;
 }
