@@ -6,23 +6,26 @@
 }
 
 h1 {
-  font-size: xx-large;
+  /* font-size: xx-large; */
   font-weight: bolder !important;
 }
 
 p {
   font-weight: bold;
-  font-size: large;
+  /* font-size: large; */
   text-align: left;
   line-height: 32px;
 }
 
 ul {
   font-weight: bold;
-  font-size: large;
+  /* font-size: large; */
+  line-height: 32px;
+}
+
+ul.indent {
   padding-left: 40px;
   text-align: left;
-  line-height: 32px;
 }
 
 main {
@@ -89,5 +92,9 @@ img {
 
 .underline {
   text-decoration: underline !important;
+}
+
+.icon {
+  width: 40%;
 }
 
