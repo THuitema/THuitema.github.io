@@ -2,24 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: "Lucida Console", "Courier New"; */
-  font-family: 'Anonymous Pro', sans-serif;
+  font-family: 'Anonymous Pro' !important;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: xx-large;
+  font-weight: bolder !important;
 }
 
 p {
   font-weight: bold;
-  font-size: 24px;
+  font-size: large;
   text-align: left;
   line-height: 32px;
 }
 
 ul {
   font-weight: bold;
-  font-size: 24px;
+  font-size: large;
   padding-left: 40px;
   text-align: left;
   line-height: 32px;
@@ -28,12 +28,9 @@ ul {
 main {
   display: flex;
   flex-direction: row;
-
-  /* height: 100vh;
-  width: 100%; */
-  background: linear-gradient(45deg, #d2001a, #7462ff, #23d5ab, #f1e366);
+  background: linear-gradient(45deg, #d2001a, #7462ff, #23d5ab, #f1e366, #14e5f4);
   background-size: 300% 300%;
-  animation: color 12s ease-in-out infinite;
+  animation: color 10s ease-in-out infinite;
 }
 
 
@@ -41,9 +38,11 @@ main {
   0% {
     background-position: 0 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0 50%;
   }
@@ -61,7 +60,26 @@ main {
 }
 
 img {
-  width: 15%;
+  /* width: 25%; */
   border-radius: 10px;
   margin: 20px;
 }
+
+/* For Mobile */
+@media screen and (max-width: 600px) {
+  img {
+    width: 25%;
+  }
+}
+
+/* For Laptops */
+@media screen and (min-width: 600px) {
+  img {
+    width: 15%;
+  }
+}
+
+.navbar {
+  background-color: rgba(255,255,255,0.5);
+}
+
