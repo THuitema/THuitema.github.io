@@ -68,8 +68,8 @@ img {
 }
 
 /* For Mobile */
-@media screen and (max-width: 800px) {
-  img {
+@media screen and (max-width: 900px) {
+  .portrait {
     width: 25%;
   }
   ul {
@@ -86,12 +86,12 @@ img {
 }
 
 /* For Laptops */
-@media screen and (min-width: 800px) {
-  img {
+@media screen and (min-width: 900px) {
+  .portrait {
     width: 15%;
   }
   .container {
-    width: 800px !important;
+    width: 900px !important;
   }
 }
 
@@ -118,4 +118,11 @@ img {
 }
 .card-subtitle {
   color: rgb(0, 0, 0) !important;
+}
+
+.embed-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
