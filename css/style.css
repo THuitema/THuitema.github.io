@@ -30,7 +30,7 @@ ul {
 main {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(45deg, #d2001a, #7462ff, #23d5ab, #f1e366, #14e5f4);
+  background: linear-gradient(45deg, #fa3c53, #8a7df3, #23d5ab, #f1e366, #14e5f4);
   background-size: 300% 300%;
   animation: color 10s ease-in-out infinite;
 }
@@ -117,5 +117,5 @@ img {
   border-width: 2px !important;
 }
 .card-subtitle {
-  color: rgb(66, 66, 66) !important;
+  color: rgb(0, 0, 0) !important;
 }
