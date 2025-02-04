@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Mono", monospace;
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(45deg, #000000, #3a3a3a, #757575);
+  background-size: 200% 200%;
+  animation: color 8s ease-in-out infinite;
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  width: 100%;
+}
+
+.container {
+  margin: 2% auto 2% auto;
+  width: 75%;
+  text-align: center;
+}
+
+.content-div {
+  margin: 2% 0 2% 0;
+  padding: 10px 0 10px 0;
+}
+
+h1 h2 h3 {
+  font-weight: bolder !important;
+}
+
+p {
+  font-weight: normal;
+  text-align: left;
+  line-height: 30px;
+}
+
+ul {
+  font-weight: normal;
+  /* font-size: large; */
+  line-height: 30px;
+}
+
+.indent {
+  padding-left: 40px;
+  text-align: left;
+}
+
+/* Images */
+img {
+  /* width: 25%; */
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.icon {
+  width: 30% !important;
+  float: left;
+}
+
+.contact-imgs {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 75px;
+  left: -20px;
+}
+
+/* NavBar */
+.navbar {
+  border-style: solid;
+  border-color: whitesmoke transparent;
+  border-width: 2px;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+nav .navbar-nav li a{
+  color: whitesmoke !important;
+}
+
+nav .navbar-nav li a:hover{
+  color: #757575 !important;
+}
+
+/* For Mobile */
+@media screen and (max-width: 900px) {
+  .portrait {
+    width: 25%;
+  }
+  ul {
+    font-size: 12px !important;
+    line-height: 20px;
+
+  }
+  p {
+    font-size: 12px !important;
+    line-height: 20px;
+  }
+}
+
+/* For Laptops */
+@media screen and (min-width: 900px) {
+  .portrait {
+    width: 15%;
+  }
+  .container {
+    width: 900px !important;
+  }
+}
+
